@@ -1,0 +1,62 @@
+a {
+    color: black;
+    text-decoration: none;
+    padding-right: 10px;
+    font-family: Arial, sans-serif;
+    }
+h1{
+    font-family: Arial, sans-serif;
+    color: red;
+    }
+#line{
+    background-color: #ebebeb;
+    height: 1px;
+    width: 100%;
+    }
+h3{
+    font-family: Arial, sans-serif;
+    }
+input{
+        border-radius: 15px;
+        border-width: 1px;
+    }
+input[type=text] {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+#advanced{
+        color: white;
+        background-color: blue;
+    }
+    input[type=submit] {
+        display: grid;
+        padding:8px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    header {
+        text-align: right;
+    }
+    form {
+        display: grid;
+        align-items: center;
+        gap: 10px;
+    }
+    @media screen and (min-width: 600px) {
+        form{
+            display: grid;
+            align-items: center;
+            grid-template-columns: repeat(2,1fr);
+        }
+        form :last-child{
+            grid-column: 2;
+        }
+    }
+    form :last-child{
+        justify-self:end;
+    }
