@@ -7,11 +7,9 @@ a {
 h1{
     font-family: Arial, sans-serif;
     color: red;
-    }
-#line{
-    background-color: #ebebeb;
-    height: 1px;
-    width: 100%;
+    border-bottom-color: #ebebeb;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
     }
 h3{
     font-family: Arial, sans-serif;
